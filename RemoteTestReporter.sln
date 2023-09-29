@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteTestReporter", "RemoteTestReporter\RemoteTestReporter.csproj", "{1BE9393B-0443-46F9-9C14-E78FE69B9621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtenstionTester", "ExtenstionTester\ExtenstionTester.csproj", "{106AAC3E-F864-4792-A9FB-692E219A7ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C0EC6726-A6C8-49B6-A448-5864484BE877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionSDK", "NotionSDK\NotionSDK.csproj", "{70D9549C-448A-4D92-B706-80141023F4A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE9393B-0443-46F9-9C14-E78FE69B9621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE9393B-0443-46F9-9C14-E78FE69B9621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE9393B-0443-46F9-9C14-E78FE69B9621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE9393B-0443-46F9-9C14-E78FE69B9621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106AAC3E-F864-4792-A9FB-692E219A7ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106AAC3E-F864-4792-A9FB-692E219A7ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106AAC3E-F864-4792-A9FB-692E219A7ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106AAC3E-F864-4792-A9FB-692E219A7ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EC6726-A6C8-49B6-A448-5864484BE877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EC6726-A6C8-49B6-A448-5864484BE877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EC6726-A6C8-49B6-A448-5864484BE877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EC6726-A6C8-49B6-A448-5864484BE877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D9549C-448A-4D92-B706-80141023F4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D9549C-448A-4D92-B706-80141023F4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D9549C-448A-4D92-B706-80141023F4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D9549C-448A-4D92-B706-80141023F4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

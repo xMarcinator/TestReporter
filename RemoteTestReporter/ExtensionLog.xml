@@ -1,0 +1,116 @@
+<start-run count="1" start-time="2023-06-26 20:12:41Z" engine-version="3.15.3.0" clr-version="7.0.7">
+    <command-line>
+        <![CDATA["C:\Program Files\JetBrains\Rider\r2r\2023.1.3R\FB5A4954A2B5B096078EBC40157DCB6\TestRunner\netcoreapp3.0\ReSharperTestRunner.dll" --parentProcessId 4596 -p 51144 -r 9c289c46-7145-47ef-b208-ca281bce6866]]></command-line>
+</start-run>
+<start-suite id="0-1002" parentId="" name="ExtenstionUser.dll"
+             fullname="C:/Users/Marc/RiderProjects/RemoteTestReporter/ExtenstionUser/bin/Debug/net7.0/ExtenstionUser.dll"
+             type="Assembly" framework-version="3.13.3.0"/>
+<start-suite id="0-1003" parentId="0-1002"
+             name="ExtenstionUser"
+             fullname="ExtenstionUser"
+             type="TestSuite"/>
+<start-suite
+id="0-1000" parentId="0-1003" name="Tests" fullname="ExtenstionUser.Tests" type="TestFixture"/>
+<start-test id="0-1001"
+            parentId="0-1000"
+            name="Test1"
+            fullname="ExtenstionUser.Tests.Test1"
+            type="TestMethod"
+            classname="ExtenstionUser.Tests"
+            methodname="Test1"/>
+<test-case
+id="0-1001" name="Test1" fullname="ExtenstionUser.Tests.Test1" methodname="Test1" classname="ExtenstionUser.Tests"
+runstate="Runnable" seed="598793992" result="Passed" start-time="2023-06-26T20:12:41.5209139Z"
+end-time="2023-06-26T20:12:41.5420903Z" duration="0.021243" asserts="0" parentId="0-1000"/>
+<test-suite
+type="TestFixture" id="0-1000" name="Tests" fullname="ExtenstionUser.Tests" classname="ExtenstionUser.Tests"
+runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-26T20:12:41.5187930Z"
+end-time="2023-06-26T20:12:41.5446893Z" duration="0.025896" total="1" passed="1" failed="0" warnings="0"
+inconclusive="0" skipped="0" asserts="0" parentId="0-1003"/>
+<test-suite type="TestSuite" id="0-1003"
+            name="ExtenstionUser"
+            fullname="ExtenstionUser" runstate="Runnable"
+            testcasecount="1" result="Passed"
+            start-time="2023-06-26T20:12:41.5168454Z"
+            end-time="2023-06-26T20:12:41.5450233Z"
+            duration="0.028178" total="1" passed="1"
+            failed="0" warnings="0" inconclusive="0"
+            skipped="0" asserts="0"
+            parentId="0-1002"/>
+<test-suite type="Assembly"
+            id="0-1002"
+            name="ExtenstionUser.dll"
+            fullname="C:/Users/Marc/RiderProjects/RemoteTestReporter/ExtenstionUser/bin/Debug/net7.0/ExtenstionUser.dll"
+            runstate="Runnable"
+            testcasecount="1"
+            result="Passed"
+            start-time="2023-06-26T20:12:41.5126962Z"
+            end-time="2023-06-26T20:12:41.5450379Z"
+            duration="0.032317"
+            total="1"
+            passed="1"
+            failed="0"
+            warnings="0"
+            inconclusive="0"
+            skipped="0"
+            asserts="0"
+            parentId="">
+<properties>
+    <property name="_PID" value="26408"/>
+    <property name="_APPDOMAIN" value="ReSharperTestRunner"/>
+</properties>
+</test-suite>
+<test-run id="0" name="ExtenstionUser.dll"
+          fullname="C:\Users\Marc\RiderProjects\RemoteTestReporter\ExtenstionUser\bin\Debug\net7.0\ExtenstionUser.dll"
+          runstate="Runnable" testcasecount="1" result="Passed" total="1" passed="1" failed="0"
+          warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.3.0"
+          clr-version="7.0.7" start-time="2023-06-26 20:12:41Z" end-time="2023-06-26 20:12:41Z"
+          duration="0.051297">
+<command-line>
+    <![CDATA["C:\Program Files\JetBrains\Rider\r2r\2023.1.3R\FB5A4954A2B5B096078EBC40157DCB6\TestRunner\netcoreapp3.0\ReSharperTestRunner.dll" --parentProcessId 4596 -p 51144 -r 9c289c46-7145-47ef-b208-ca281bce6866]]></command-line>
+<filter>
+    <id>0-1000</id>
+</filter>
+<test-suite type="Assembly" id="0-1002" name="ExtenstionUser.dll"
+            fullname="C:/Users/Marc/RiderProjects/RemoteTestReporter/ExtenstionUser/bin/Debug/net7.0/ExtenstionUser.dll"
+            runstate="Runnable" testcasecount="1" result="Passed" start-time="2023-06-26T20:12:41.5126962Z"
+            end-time="2023-06-26T20:12:41.5450379Z" duration="0.032317" total="1" passed="1" failed="0" warnings="0"
+            inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.3.0" clr-version="7.0.7" os-version="Microsoft Windows 10.0.22621"
+                 platform="Win32NT"
+                 cwd="C:\Users\Marc\RiderProjects\RemoteTestReporter\ExtenstionUser\bin\Debug\net7.0"
+                 machine-name="DESKTOP-5R3TBUC" user="Marc" user-domain="DESKTOP-5R3TBUC" culture="en-US"
+                 uiculture="en-US" os-architecture="x64"/>
+    <settings>
+        <setting name="ProcessModel" value="InProcess"/>
+        <setting name="DomainUsage" value="None"/>
+        <setting name="ShadowCopyFiles" value="False"/>
+        <setting name="TestParametersDictionary" value=""/>
+        <setting name="SynchronousEvents" value="False"/>
+        <setting name="RandomSeed" value="92541157"/>
+        <setting name="LOAD" value="System.Collections.Generic.List`1[System.String]"/>
+        <setting name="WorkDirectory"
+                 value="C:\Users\Marc\RiderProjects\RemoteTestReporter\ExtenstionUser\bin\Debug\net7.0"/>
+        <setting name="NumberOfTestWorkers" value="24"/>
+    </settings>
+    <properties>
+        <property name="_PID" value="26408"/>
+        <property name="_APPDOMAIN" value="ReSharperTestRunner"/>
+    </properties>
+    <test-suite type="TestSuite" id="0-1003" name="ExtenstionUser" fullname="ExtenstionUser" runstate="Runnable"
+                testcasecount="1" result="Passed" start-time="2023-06-26T20:12:41.5168454Z"
+                end-time="2023-06-26T20:12:41.5450233Z" duration="0.028178" total="1" passed="1" failed="0" warnings="0"
+                inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1000" name="Tests" fullname="ExtenstionUser.Tests"
+                    classname="ExtenstionUser.Tests" runstate="Runnable" testcasecount="1" result="Passed"
+                    start-time="2023-06-26T20:12:41.5187930Z" end-time="2023-06-26T20:12:41.5446893Z"
+                    duration="0.025896" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0"
+                    asserts="0">
+            <test-case id="0-1001" name="Test1" fullname="ExtenstionUser.Tests.Test1" methodname="Test1"
+                       classname="ExtenstionUser.Tests" runstate="Runnable" seed="598793992" result="Passed"
+                       start-time="2023-06-26T20:12:41.5209139Z" end-time="2023-06-26T20:12:41.5420903Z"
+                       duration="0.021243" asserts="0"/>
+        </test-suite>
+    </test-suite>
+</test-suite>
+</test-run>
